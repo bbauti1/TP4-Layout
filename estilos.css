@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F8F5F2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.app-container {
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.calendar-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calendar-section h2 {
+    color: #2A2A2A;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.day, .date {
+    color: #A1A1A1;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+.date.active {
+    background-color: #FFBB33;
+    color: white;
+    border-radius: 10px;
+}
+
+.medicines-section {
+    margin-top: 20px;
+}
+
+.medicines-section h3 {
+    font-size: 16px;
+    color: #2A2A2A;
+    margin-bottom: 15px;
+}
+
+.medicine-card {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.time {
+    font-size: 14px;
+    color: #A1A1A1;
+}
+
+.medicine-details {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Aumentamos la separación entre el ícono y el texto */
+}
+
+.pill-icon {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #FFC1A1, #FFBB33);
+    border-radius: 50%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.medicine-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2A2A2A;
+}
+
+.medicine-dose {
+    font-size: 14px;
+    color: #A1A1A1;
+}
+
+.barra-navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px; 
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 20px;
+    left: 50%;            
+    transform: translateX(-50%);
+    width: 90%;           
+    max-width: 400px;     
+}
+
+.barra-navegacion .icono {
+    width: 40px;
+    height: 40px;
+    background-color: #FFBB33;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.barra-navegacion .icono:hover {
+    background-color: #FFBB33;
+    transform: scale(1.1); 
+}
+
+.barra-navegacion .icono-mas button {
+    background-color: #FFBB33;
+    color: white;
+    font-size: 24px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.barra-navegacion .icono-mas button:hover {
+    background-color: #ff6f40;
+    transform: scale(1.1);
+}
+
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon.add {
+    background-color: #212121;
+    border-radius: 50%;
+    color: white;
+    margin-top: 0;
+}

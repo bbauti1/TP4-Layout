@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6f6f6;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f6f6f6;
+}
+
+.texto{
+    height: auto;
+    width: auto;
+}
+
+
+.encabezado {
+    background-color: #FFBB33;
+    height: 300px;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.encabezado h2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.encabezado p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.medicamento-destacado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 120px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.medicamento-destacado .icono-medicamento {
+    width: 50px;
+    height: 50px;
+    background-color: #FFBB33;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.medicamento-destacado .detalle-medicamento-destacado h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.medicamento-destacado .detalle-medicamento-destacado p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.medicamentos-hoy h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.medicamento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.medicamento .icono-medicamento {
+    width: 40px;
+    height: 40px;
+    background-color: #FFBB33;
+    border-radius: 50%;
+}
+
+.medicamento .detalle-medicamento h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.medicamento .detalle-medicamento p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.medicamento .estado-tomado {
+    color: #f57f5a;
+    font-size: 12px;
+}
+
+.check-tomado input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.barra-navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px; 
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 20px;
+    left: 50%;            
+    transform: translateX(-50%);
+    width: 90%;           
+    max-width: 400px;     
+}
+
+.barra-navegacion .icono {
+    width: 40px;
+    height: 40px;
+    background-color: #FFBB33;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.barra-navegacion .icono:hover {
+    background-color: #f8cbb6;
+    transform: scale(1.1); 
+}
+
+.barra-navegacion .icono-mas button {
+    background-color: #FFBB33;
+    color: white;
+    font-size: 24px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.barra-navegacion .icono-mas button:hover {
+    background-color: #ff6f40;
+    transform: scale(1.1);
+}

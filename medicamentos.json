@@ -1,0 +1,19 @@
+{
+    "medicamentos": [
+        {
+            "nombre": "Antihistamin",
+            "hora": "10:00",
+            "pagina": "pagina2.html"
+        },
+        {
+            "nombre": "Paracetamol",
+            "hora": "12:00",
+            "pagina": "pagina4.html"
+        },
+        {
+            "nombre": "Ibuprofeno",
+            "hora": "18:00",
+            "pagina": "pagina5.html"
+        }
+    ]
+}

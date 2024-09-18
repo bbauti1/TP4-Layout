@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f6f6f6;
+}
+
+
+.encabezado-detalles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.btn-volver, .btn-editar {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #888;
+    cursor: pointer;
+}
+
+.icono-medicamento-detalle {
+    width: 60px;
+    height: 60px;
+    background-color: #fbe1d9;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.encabezado-detalles h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.encabezado-detalles p {
+    font-size: 14px;
+    color: #888;
+}
+
+.detalles-medicacion {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.detalles-medicacion .detalle {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.detalles-medicacion .detalle p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.detalles-medicacion .detalle span {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.ceklis-selanjutnya h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.medicamento-pendiente {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hora-medicamento p {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+}
+
+.hora-medicamento span {
+    font-size: 12px;
+    color: #888;
+}
+
+.acciones-medicamento {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-recordar {
+    background-color: #FFBB33;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-finalizar {
+    background-color: #FFBB33;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6f6f6;
+    color: #333;
+    height: 100vh;
+    width: 100%;
+}
+
+.contenedor {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f6f6f6;
+}
+
+.encabezado-detalles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.btn-volver, .btn-editar {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #888;
+    cursor: pointer;
+}
+
+.detalle-medicamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    padding: 20px;          
+}
+
+.icono-medicamento {
+    width: 60px;
+    height: 60px;
+    background-color: #FFBB33;
+    border-radius: 50%;
+    margin-bottom: 15px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalle-medicamento h1 {
+    font-size: 22px;        
+    font-weight: bold;     
+    margin-bottom: 10px;    
+    color: #333;
+}
+
+.detalle-medicamento p {
+    font-size: 14px;
+    color: #777;
+    max-width: 80%;     
+}
+
+.info-medicacion {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.info-item {
+    text-align: center;
+}
+
+.info-item p {
+    font-size: 14px;
+    color: #888;
+}
+
+.info-item span {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.titulo-siguiente {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+}
